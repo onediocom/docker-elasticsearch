@@ -9,3 +9,8 @@ discovery:
 
 plugin:
   mandatory: cloud-aws
+
+cluster:
+  name: ElasticSearchGroup
+
+http.cors.enabled: true
