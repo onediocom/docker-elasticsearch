@@ -1,0 +1,11 @@
+path:
+  data: /data/data
+  logs: /data/log
+
+discovery:
+  type: ec2
+  ec2:
+    groups: ElasticSearchGroup
+
+plugin:
+  mandatory: cloud-aws
