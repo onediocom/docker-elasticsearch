@@ -14,3 +14,5 @@ cluster:
   name: ElasticSearchGroup
 
 http.cors.enabled: true
+network.publish_host: _ec2_
+cloud.aws.region: eu-west-1
