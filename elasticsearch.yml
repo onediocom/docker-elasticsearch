@@ -16,3 +16,4 @@ cluster:
 http.cors.enabled: true
 network.publish_host: _ec2_
 cloud.aws.region: eu-west-1
+threadpool.bulk.queue_size: 20000
